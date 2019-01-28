@@ -10,6 +10,6 @@ namespace RolesApp.Models
     {
         public IEnumerable<User> Users { get; set; }
         public SelectList select { get; set; }
-        public string Name { get; set; }
+        public string Color { get; set; }
     }
 }

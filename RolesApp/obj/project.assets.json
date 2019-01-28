@@ -12352,11 +12352,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FoboZ\\source\\repos\\RolesApp\\RolesApp\\RolesApp.csproj",
+      "projectUniqueName": "C:\\Users\\FoboZ\\source\\repos\\RolesApp\\RoleAPP\\RolesApp\\RolesApp.csproj",
       "projectName": "RolesApp",
-      "projectPath": "C:\\Users\\FoboZ\\source\\repos\\RolesApp\\RolesApp\\RolesApp.csproj",
+      "projectPath": "C:\\Users\\FoboZ\\source\\repos\\RolesApp\\RoleAPP\\RolesApp\\RolesApp.csproj",
       "packagesPath": "C:\\Users\\FoboZ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FoboZ\\source\\repos\\RolesApp\\RolesApp\\obj\\",
+      "outputPath": "C:\\Users\\FoboZ\\source\\repos\\RolesApp\\RoleAPP\\RolesApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

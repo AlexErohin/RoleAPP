@@ -20,16 +20,16 @@ namespace RolesApp.Controllers
             return Content($"ваша роль: {role}");
         }
         [Authorize(Roles = "admin")]
-        public async Task<IActionResult> About( int? select,string name)
+        public async Task<IActionResult> About( int? select,string color)
         {
             IQueryable<User> users = db.Users.Include(p => p.Role);
             if (select != null && select != 0)
             {
                 users = users.Where(p => p.RoleId == select);
             }
-            if (!string.IsNullOrEmpty(name))
+            if (!string.IsNullOrEmpty(color))
             {
-                users = users.Where(p => p.Name.Contains(name));
+                users = users.Where(p => p.Color.Contains(color));
             }
 
             List<Role> roles = db.Roles.ToList();
@@ -40,7 +40,7 @@ namespace RolesApp.Controllers
             {
                 Users = users.ToList(),
                 select = new SelectList(roles, "Id", "Name"),
-                Name = name
+                Color = color
             };
             return View(viewModel);
         
